@@ -11,9 +11,10 @@ WinForms.DataVisualization
 Open the application and select the process you want to measure the power consumption from the dropdown list.
 The application will start measuring the power consumption and the graph and average consumption textbox will refresh with the new data and points every second.
 
-## How to use for developer
+## How to use the development environment for developers only
 dotnet restore (so you can get the bin and obj file renew)
 dotnet run to start the apllication running
+In the PowerMgtWFA.cspro: to change the environment to use either linux,windows or mac. default setting is on windows
 
 ## How it works
 The application uses the Windows Forms UI framework to display a form with a ComboBox that allows the user to select a process from a list of all running processes on the system, a Chart control that displays the power consumption of the selected process in a line graph and a Textbox that displays the average power consumption per hour.
